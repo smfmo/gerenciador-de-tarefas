@@ -21,10 +21,6 @@ public class TarefasService {
         return repository.save(tarefas);
     }
 
-    public Tarefas atualizar(Tarefas tarefas) {
-        return repository.save(tarefas);
-    }
-
     public void excluir(Long id) {
         repository.deleteById(id);
     }
@@ -33,7 +29,7 @@ public class TarefasService {
         return repository.findAll();
     }
 
-    public Tarefas listarPorId(Long id) {
+    public Tarefas atualizar(Long id) {
         return repository.findById(id)
                 .orElse(null);
     }

@@ -46,7 +46,7 @@ public class TarefasController {
     @GetMapping("/editar/{id}")
     public String editarTarefas(@PathVariable Long id,
                                 Model model) {
-        model.addAttribute("tarefas", service.listarPorId(id));
+        model.addAttribute("tarefas", service.atualizar(id));
         return "/form";
     }
 
