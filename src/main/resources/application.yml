@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: gerenciador de tarefas
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gerenciadorDeTarefas
+    password: 123456
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect

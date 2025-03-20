@@ -1,0 +1,5 @@
+body { background-color: #f8f9fa; }
+.container { max-width: 600px; }
+.card { background-color: #e3e7ea; border: none; }
+.btn-primary { background-color: #4a90e2; border: none; }
+.btn-secondary { background-color: #6c757d; border: none; }
