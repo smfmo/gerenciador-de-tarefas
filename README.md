@@ -90,3 +90,6 @@ O Repository é responsável pela interação direta com o banco de dados. Ele a
 4. **Retorno da View**:
     - O Controller recebe os dados processados e os envia para a View (`lista.html` ou `form.html`).
     - A View renderiza os dados em HTML e os exibe para o usuário.
+
+## Desenvolvido por : 
+- **Samuel Monteiro**
