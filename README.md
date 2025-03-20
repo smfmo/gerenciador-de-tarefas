@@ -6,6 +6,12 @@
 
 Este é um projeto Java/Spring Boot que implementa um sistema simples de gerenciamento de tarefas. O sistema permite criar, listar, editar e excluir tarefas, além de marcar tarefas como concluídas.
 
+## formulário para adicionar tarefas:
+![img_1.png](img_1.png)
+
+## Lista de tarefas:
+![img_2.png](img_2.png)
+
 # Diagrama de Classes
 ![img.png](img.png)
 ## Tecnologias Utilizadas
